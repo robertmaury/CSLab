@@ -32,8 +32,8 @@ jobs:
         id: accurics
         with:
           # Required by Accurics
-          pipeline: true
           scan-mode: "scan"
-          plan-args: "-token=7730315b-3add-42dc-a18c-d7feca10f163"
+          env-id: "a2a3c811-5c24-48bf-8786-cb2a704fd7b7"
+          app-id: "cc941992-22f0-42ba-835f-429df828ccbf"
           url: https://cloud.tenable.com/cns
           # Optional args
